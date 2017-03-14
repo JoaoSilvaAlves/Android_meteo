@@ -3,8 +3,6 @@ package com.example.silvaajo.googlemaps_meteo;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
-import com.google.android.gms.maps.CameraUpdate;
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -13,7 +11,7 @@ import com.google.android.gms.maps.model.LatLngBounds;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
-    private GoogleMap mMap;
+    private GoogleMap m_Map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +34,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        mMap = googleMap;
+        m_Map = googleMap;
 
         // Défini la zone accessible sur la carte, dans ce cas, la Suisse
         //
@@ -45,26 +43,27 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //45.750280, 5.941828            45.800165, 10.518424
         //
         setMapArea(45.750280, 5.941828, 47.816528, 10.514585);
-        goToLocationZoom(46.990125, 6.927998, 15);
+        //goToLocationZoom(46.990125, 6.927998, 15);
     }
-    //Déplace le centre de la caméra sur les coordonées entrées
-    private void goToLocation(double lat, double lng){
-        LatLng ll = new LatLng(lat, lng);
-        CameraUpdate update = new CameraUpdateFactory.newLatLng(ll);
-        mMap.moveCamera(update);
+    /*Déplace le centre de la caméra sur les coordonées entrées
+    private void goToLocation(double dbl_lat, double dbl_lng){
+        LatLng latlng_position = new LatLng(dbl_lat, dbl_lng);
+        CameraUpdate camup_update = new CameraUpdateFactory.newLatLng(latlng_position);
+        m_Map.moveCamera(camup_update);
     }
 
     //Déplace le centre de la caméra sur les coordonées entrées et fixe le niveau de zoom
-    private void goToLocationZoom(double lat, double lng, float zoom){
-        LatLng ll = new LatLng(lat, lng);
-        CameraUpdate update = new CameraUpdateFactory.newLatLngZoom(ll, zoom);
-        mMap.moveCamera(update);
+    private void goToLocationZoom(double dbl_lat, double dbl_lng, float f_zoom){
+        LatLng latlng_position = new LatLng(dbl_lat, dbl_lng);
+        CameraUpdate camup_update = new CameraUpdateFactory.newLatLngZoom(latlng_position, f_zoom);
+        m_Map.moveCamera(camup_update);
     }
+    */
 
     //Limite l'accès à la carte Google selon les positions souhaitées. --> Seule la Suisse est entièrement visible
-        private void setMapArea(double SW_lat, double SW_lng, double NE_lat, double NE_lng)
+        private void setMapArea(double dbl_SW_lat, double dbl_SW_lng, double dbl_NE_lat, double dbl_NE_lng)
     {
-        LatLngBounds Switzerland = new LatLngBounds(new LatLng(SW_lat, SW_lng), new LatLng(NE_lat, NE_lng));
-        mMap.setLatLngBoundsForCameraTarget(Switzerland);
+        LatLngBounds Switzerland = new LatLngBounds(new LatLng(dbl_SW_lat, dbl_SW_lng), new LatLng(dbl_NE_lat, dbl_NE_lng));
+        m_Map.setLatLngBoundsForCameraTarget(Switzerland);
     }
 }
