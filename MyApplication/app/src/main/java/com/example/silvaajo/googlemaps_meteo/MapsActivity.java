@@ -1,11 +1,13 @@
 package com.example.silvaajo.googlemaps_meteo;
 
+import android.content.Context;
 import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -13,6 +15,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
@@ -49,15 +52,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //45.750280, 5.941828            45.800165, 10.518424
         //
         setMapArea(45.750280, 5.941828, 47.816528, 10.514585);
-        moveCameraZoom(46.990125, 6.927998, 15.0f);
-        //goToLocationZoom(46.990125, 6.927998, 15);
-        //goToLocation(46.990125, 6.927998);
+        moveCameraZoom(46.990125, 6.927998, 12.0f);
 
         if (m_Map != null){
             m_Map.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
                 @Override
                 public void onMapClick(LatLng latLng) {
-                    startActivity(new Intent(MapsActivity.this, Pop.class));
+                    Intent intent = new Intent(MapsActivity.this, Pop.class);
+                    Bundle b = new Bundle();
+                    b.putDouble("lat", latLng.latitude);
+                    b.putDouble("lng", latLng.longitude);
+                    intent.putExtras(b);
+                    startActivity(intent);
                 }
             });
 
@@ -67,8 +73,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 public void onMapLongClick(LatLng point){
                     LatLng latlng = point;
 
-                        MarkerOptions options = new MarkerOptions().position(point);
+                        MarkerOptions options = new MarkerOptions().position(point).draggable(true);
                         marker = m_Map.addMarker(options);
+                }
+            });
+
+            m_Map.setOnCameraChangeListener(new GoogleMap.OnCameraChangeListener() {
+                @Override
+                public void onCameraChange(CameraPosition cameraPosition) {
+                    float minZoom = 6.5f;
+                    if(cameraPosition.zoom < minZoom)
+                        m_Map.animateCamera(CameraUpdateFactory.zoomTo(minZoom));
                 }
             });
         }
@@ -86,26 +101,30 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void geoLocate(View view) {
-
-        EditText et = (EditText) findViewById(R.id.editText);
-        String location = et.getText().toString();
-        Geocoder gc = new Geocoder(this);
-
         try {
-            //Récupère l'adresse d'une ville entrée dans le champ texte
-            List<Address> list = gc.getFromLocationName(location, 1);
-            Address address = list.get(0);
-            final String locality = address.getLocality();
+        EditText et = (EditText) findViewById(R.id.editText);
+            if (et.getText().toString() != null) {
+                String location = et.getText().toString();
+                Geocoder gc = new Geocoder(this);
 
-            Toast.makeText(this, locality, Toast.LENGTH_LONG).show();
+                //Récupère l'adresse d'une ville entrée dans le champ texte
+                List<Address> list = gc.getFromLocationName(location, 1);
+                Address address = list.get(0);
+                final String locality = address.getLocality();
 
-            final double dbl_lat = address.getLatitude();
-            final double dbl_lng = address.getLongitude();
-            moveCameraZoom(dbl_lat, dbl_lng, 15);
+                Toast.makeText(this, locality, Toast.LENGTH_LONG).show();
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+                final double dbl_lat = address.getLatitude();
+                final double dbl_lng = address.getLongitude();
+                moveCameraZoom(dbl_lat, dbl_lng, 15);
+                hideKeyboard(this, view);
+            }
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+    }
+    public static void hideKeyboard(Context ctx, View view){
+        InputMethodManager inm = (InputMethodManager) ctx.getSystemService(Context.INPUT_METHOD_SERVICE);
+        inm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 }
