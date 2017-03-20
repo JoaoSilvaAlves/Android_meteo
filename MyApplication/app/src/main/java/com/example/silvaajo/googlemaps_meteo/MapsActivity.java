@@ -1,5 +1,6 @@
 package com.example.silvaajo.googlemaps_meteo;
 
+import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
@@ -23,6 +24,8 @@ import java.util.List;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap m_Map;
+    Marker marker;
+    Geocoder geocoder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +37,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
-    Marker marker;
-    @Override
-    public void onMapReady(GoogleMap googleMap) {
-        m_Map = googleMap;
 
+    @Override
+    public void onMapReady(final GoogleMap googleMap) {
+        m_Map = googleMap;
 
         // Défini la zone accessible sur la carte, dans ce cas, la Suisse et alentours
         //
@@ -55,16 +57,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             m_Map.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
                 @Override
                 public void onMapClick(LatLng latLng) {
-
+                    startActivity(new Intent(MapsActivity.this, Pop.class));
                 }
             });
 
             m_Map.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener()
             {
                 @Override
-                public void onMapLongClick(LatLng latlng){
-                    MarkerOptions options = new MarkerOptions().title("Localité").position(new LatLng(46.990125,6.927998)).snippet("I am here");
-                    marker = m_Map.addMarker(options);
+                public void onMapLongClick(LatLng point){
+                    LatLng latlng = point;
+
+                        MarkerOptions options = new MarkerOptions().position(point);
+                        marker = m_Map.addMarker(options);
                 }
             });
         }
