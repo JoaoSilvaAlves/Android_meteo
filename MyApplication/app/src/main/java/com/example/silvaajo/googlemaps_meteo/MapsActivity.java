@@ -35,6 +35,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
 
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -54,7 +55,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setMapArea(45.750280, 5.941828, 47.816528, 10.514585);
         moveCameraZoom(46.990125, 6.927998, 12.0f);
 
-        if (m_Map != null){
+        if (m_Map != null) {
             m_Map.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
                 @Override
                 public void onMapClick(LatLng latLng) {
@@ -67,14 +68,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
             });
 
-            m_Map.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener()
-            {
+            m_Map.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
                 @Override
-                public void onMapLongClick(LatLng point){
+                public void onMapLongClick(LatLng point) {
                     LatLng latlng = point;
 
-                        MarkerOptions options = new MarkerOptions().position(point).draggable(true);
-                        marker = m_Map.addMarker(options);
+                    MarkerOptions options = new MarkerOptions().position(point).draggable(true);
+                    marker = m_Map.addMarker(options);
                 }
             });
 
@@ -82,28 +82,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 @Override
                 public void onCameraChange(CameraPosition cameraPosition) {
                     float minZoom = 6.5f;
-                    if(cameraPosition.zoom < minZoom)
+                    if (cameraPosition.zoom < minZoom)
                         m_Map.animateCamera(CameraUpdateFactory.zoomTo(minZoom));
                 }
             });
         }
     }
-    private void moveCameraZoom(double dbl_lat, double dbl_lng,float f_zoom)
-    {
+
+    private void moveCameraZoom(double dbl_lat, double dbl_lng, float f_zoom) {
         m_Map.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(dbl_lat, dbl_lng), f_zoom));
     }
 
     //Limite l'accès à la carte Google selon les positions souhaitées. --> Seule la Suisse est entièrement visible
-    private void setMapArea(double dbl_SW_lat, double dbl_SW_lng, double dbl_NE_lat, double dbl_NE_lng)
-    {
+    private void setMapArea(double dbl_SW_lat, double dbl_SW_lng, double dbl_NE_lat, double dbl_NE_lng) {
         LatLngBounds Switzerland = new LatLngBounds(new LatLng(dbl_SW_lat, dbl_SW_lng), new LatLng(dbl_NE_lat, dbl_NE_lng));
         m_Map.setLatLngBoundsForCameraTarget(Switzerland);
     }
 
     public void geoLocate(View view) {
         try {
-        EditText et = (EditText) findViewById(R.id.editText);
+            EditText et = (EditText) findViewById(R.id.editText);
             if (et.getText().toString() != null) {
+
                 String location = et.getText().toString();
                 Geocoder gc = new Geocoder(this);
 
@@ -119,11 +119,37 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 moveCameraZoom(dbl_lat, dbl_lng, 15);
                 hideKeyboard(this, view);
             }
-    } catch (IOException e) {
-        e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-    }
-    public static void hideKeyboard(Context ctx, View view){
+
+    /*public void geoFocus(View view) {
+        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        Criteria criteria = new Criteria();
+
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            Location location = LocationServices.FusedLocationApi.getLastLocation(
+                    mGoogleApiClient);
+            if (location != null) {
+                m_Map.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 13));
+            }
+
+            CameraPosition cameraPosition = new CameraPosition.Builder()
+                    .target(new LatLng(location.getLatitude(), location.getLongitude()))
+                    .zoom(12.8f)
+                    .build();
+
+            CameraUpdate cameraUpdate = CameraUpdateFactory.newCameraPosition(cameraPosition);
+
+            m_Map.moveCamera(cameraUpdate);
+
+            return;
+
+        }
+    }*/
+
+    public static void hideKeyboard(Context ctx, View view) {
         InputMethodManager inm = (InputMethodManager) ctx.getSystemService(Context.INPUT_METHOD_SERVICE);
         inm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }

@@ -1,3 +1,446 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.2.0_98dbd092de9760481e85e9fad18bf44d22a729d3\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.2.0_c72958e0e3b59e87af1acb3046f7e375a258cc67\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_0e77311b68fa5b511b89176be990b1cd697e677f\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_1d97ee02d405bd3e054d51523df8f56648700a6f\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.0_0b3959682d3689c9de9c7d818be032b9122e8b04\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.0_3a528c04659414649d01bc33a500955bdee55c0a\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.2.0_7c73faa63a546b9d70355c5c456da105abe6b7f3\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.2.0_5f9d24a416b5992759829021c9c7bc111495ee33\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.2.0_42902dc9a9b6b3589dfb6949aa1550202f11af22\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.0_8a7457bab07f6b82ae49bf8fe9c117d7d4a98937\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.0_629d84d6d4fb8e7aabfea760a5b1e590f8dad88f\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_3e5b099bfa9fae6a8ebc89f7686687bf641f3619\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.2.0_ac6afc918f7e1c15470229418546a1de54f84954\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.2.0_9057b24bb84e8bca5c03a28ac53bb1192959c703\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.2.0_5b035e110dca83d2a9c2d13fe08e5f3c776863e0\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_5cc595b18bb4ac7e75bdfad5d3ec745cc0adbaee\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="974cfcdfa4916a41f374499bafd1d52be0059cff">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1c13818079be197856ff7ab3f96fdeaad6c92d84\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.2.0_b89b215d28bcd8072a0568b0ff340899ae77591f\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.2.0_b328d026157e94b7b47c2459f53488dddcfcf80f\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.2.0_2611859d0b0b513c390bc0df5224265df1402a17\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_738f086d0f9e55e870003abbc84f3dc0f4fa2d60\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.2.0_05b1c43c4ddc58b372c7b19ff53ec17fad5da87a\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.2.0_4e89a10cf81c928a173e820a9b1cc48fd7c3400b\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.2.0_ab6475e21f3e82e3960b952d0f6fcdaf499bac1b\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.2.0_fb986791eb423e06cb3f97e739f64a25ca9972da\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_emulator\.android\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_47ca17ddad0b57c2f1ed689b344bc3ffe18701f0\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_98919448107a3fccac38e2805875b7f32ea7485d\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="f1336f6909ecb76c23ced40153598e588ab4ec0c">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_05e2f793eb4e32187c6f3e74fe9bacc2b72ddadc\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.2.0_1e475dd30b92399bbddef1d2980661b361f1bf99\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.2.0_0a003901b0ee7c462ff0c2f402810874f5a4cded\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.2.0_9e06b085a17119a7992d65f165fcc46c92451391\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_23252108f99a065f9d79d5003cff285a7e2e5136\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.2.0_66b90e29df8654758b391ec6aaca494c5ef395fa\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.2.0_34ca203115cdd6de6eec094c66f1099407ec9460\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.0_3cb10292c867bcc4304058f18265483d0a0d597a\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.2.0_9c049504b5f2390f2baec4b242dff14584dd0766\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.2.0_009fb84c3f2c6d89a6cf8c15a842d627ffe8c237\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_44b31aa76717e5446e743aeceecac2cb63878f70\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.2.0_cb6369ba80808abaae980d215911f9985c7939af\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_10bff50a7bb09f31470476a5aa3ca613e7ceced2\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_ffc65ba45c31658ef10d8038dcdbb508f16f4524\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_add7fc61bbfd0b55b5fbd69e613b6734cff0caf3\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_45fcb14487700d37f7c5d2a70345e2b914e768e9\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_169c31702ce9a8bc5b5e5e1b8433f6c623e304ca\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.2.0_974c07bc74ddcd83dc5c374137cfa30a382da0e2\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.0_7ea574ea8baec01b19952dc658f1bed3c059c594\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.2.0_a995535ffdfe0d7dd1c458d04a5df663facd1baf\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.2.0_e7ec0a0f5a439ca378ca8f91eb75750ce8b65294\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.2.0_4c8f90697f47e8e5dacfbe068d6859a3dce5a547\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.2.0_50f8faeb1c3bdfb0817d092c420b075c5f1939db\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.2.0_2f7a81b560da1c1c76c961818ed43a6567c33e42\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.2.0_bcf866cb6f667ec6a5aa313d32d357d2b766681c\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.2.0_466d6cd23a8efbe094324d8fd876423847154cdd\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.2.0_f1513b2ce5def63cfe646d645a36ee6046405707\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.2.0_984893084ce21f04eaad55a9c159cd103895a32c\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.0_278e5bc36256e1f295f2afe5e60bceb21254cec5\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_09859995e8ed093e55af96da2da1dbdd55bb1f92\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.2.0_9a8513d56905757ee7e83e00093baa8eefedf7fc\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_e1141dd3c3906c2f87fd03810321e57d79d11dfd\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.2.0_f5fa0207e48b0ba5c05c62df21ef3f474678f76c\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.2.0_2d026215c5f90049707a78cdba959a890ba9e69a\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.2.0_e2c2524804fbdec1e4c4290f83b2e0fde625171e\classes.dex" />
+    </item>
+    <item
+        jar="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="D:\JoaoSilvaAlves\Android_meteo\MyApplication\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.2.0_6181d97d3a30afe7ebeae42a272146566d7a0a19\classes.dex" />
+    </item>
+
+</items>

@@ -4,10 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
     android:layout_gravity="center"
     tools:context="com.example.silvaajo.googlemaps_meteo.MapsActivity">
 
@@ -33,6 +29,16 @@
             android:id="@+id/button"
             android:onClick="geoLocate"
             android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Focus"
+            android:layout_weight="1"
+            android:id="@+id/buttonFocus"
+            android:onClick="geoFocus"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"/>
 
     </LinearLayout>
 
