@@ -4,16 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 /**
  * Created by SilvaAJo on 20.03.2017.
@@ -56,7 +49,7 @@ public class Pop extends Activity {
 
         //System.out.println("~-_-~ " + lat + " " + lng);
 
-        HttpURLConnection urlConnection = null;
+        /*HttpURLConnection urlConnection = null;
 
         try{
             final String link = new String("http://www.prevision-meteo.ch/services/json/lat=" + lat + "lng=" + lng);
@@ -85,6 +78,7 @@ public class Pop extends Activity {
             {
                 urlConnection.disconnect();
             }
-        }
+        }*/
+        return null;
     }
 }

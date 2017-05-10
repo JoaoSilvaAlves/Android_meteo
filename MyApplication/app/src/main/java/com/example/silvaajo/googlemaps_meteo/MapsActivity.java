@@ -6,6 +6,8 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AlertDialog;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -52,7 +54,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //                      Suisse
         //45.750280, 5.941828            45.800165, 10.518424
         //
-        setMapArea(45.750280, 5.941828, 47.816528, 10.514585);
+        setMapArea(45.750280, 5.941828, 47.816528, 9.514585);
         moveCameraZoom(46.990125, 6.927998, 12.0f);
 
         if (m_Map != null) {
@@ -81,7 +83,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             m_Map.setOnCameraChangeListener(new GoogleMap.OnCameraChangeListener() {
                 @Override
                 public void onCameraChange(CameraPosition cameraPosition) {
-                    float minZoom = 6.5f;
+                    float minZoom = 7.8f;
                     if (cameraPosition.zoom < minZoom)
                         m_Map.animateCamera(CameraUpdateFactory.zoomTo(minZoom));
                 }
@@ -102,22 +104,42 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void geoLocate(View view) {
         try {
             EditText et = (EditText) findViewById(R.id.editText);
-            if (et.getText().toString() != null) {
+            String location = et.getText().toString();
+            Geocoder gc = new Geocoder(this);
 
-                String location = et.getText().toString();
-                Geocoder gc = new Geocoder(this);
+            if(!TextUtils.isEmpty(location.toString())) {
 
                 //Récupère l'adresse d'une ville entrée dans le champ texte
                 List<Address> list = gc.getFromLocationName(location, 1);
-                Address address = list.get(0);
-                final String locality = address.getLocality();
 
-                Toast.makeText(this, locality, Toast.LENGTH_LONG).show();
+                if(list.size() > 0){
+                    Address address = list.get(0);
+                    final String locality = address.getLocality();
 
-                final double dbl_lat = address.getLatitude();
-                final double dbl_lng = address.getLongitude();
-                moveCameraZoom(dbl_lat, dbl_lng, 15);
-                hideKeyboard(this, view);
+                    Toast.makeText(this, locality, Toast.LENGTH_LONG).show();
+
+                    final double dbl_lat = address.getLatitude();
+                    final double dbl_lng = address.getLongitude();
+                    moveCameraZoom(dbl_lat, dbl_lng, 15);
+                    hideKeyboard(this, view);
+                }
+                else
+                {
+                    AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+                    dlgAlert.setMessage("La localité est introuvable, veuillez réessayer !");
+                    dlgAlert.setTitle("Swiss Gamap");
+                    dlgAlert.setPositiveButton("OK", null);
+                    dlgAlert.create().show();
+
+                    et.setText("");
+                }
+            }
+            else {
+                AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+                dlgAlert.setMessage("Veuillez entrer le lieu d'une localité Suisse !");
+                dlgAlert.setTitle("Swiss Gamap");
+                dlgAlert.setPositiveButton("OK", null);
+                dlgAlert.create().show();
             }
         } catch (IOException e) {
             e.printStackTrace();
