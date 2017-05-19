@@ -13,22 +13,23 @@
         android:orientation="horizontal">
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_gravity="center_horizontal"
-            android:hint="@string/hintVille"
-            android:maxLines="1"
-            android:singleLine="true"/>
+            android:hint="@string/txtEditTextVille"
+            android:singleLine="true"
+            />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Go"
-            android:layout_weight="1"
             android:id="@+id/button"
-            android:onClick="geoLocate"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/txtButtonChercher"
+            android:onClick="geoLocate"/>
 
     </LinearLayout>
 

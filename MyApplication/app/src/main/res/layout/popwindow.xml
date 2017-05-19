@@ -2,29 +2,61 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingTop="40dp"
     android:paddingRight="40dp"
     android:paddingLeft="40dp"
     android:paddingBottom="40dp"
-    android:background="@color/wallet_highlighted_text_holo_light">
+    android:background="@color/wallet_holo_blue_light">
 
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
-        android:indeterminate="true"
-        android:layout_centerHorizontal="true"
-        android:visibility="visible"/>
-
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_Localite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="26dp"/>
+
+        <TextView
+            android:id="@+id/responseHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="@string/txtTextViewHeader"/>
 
         <TextView
             android:id="@+id/responseView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="21dp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/imgViewIcon"
+            android:layout_width= "70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal|bottom"/>
+
+        <TextView
+            android:id="@+id/responseBottom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="La fenêtre se lance"/>
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="Condition espérée aujourd'hui"
+            android:textSize="15dp"/>
 
-    </ScrollView>
+    </LinearLayout>
 </RelativeLayout>

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">GoogleMaps_meteo</string>
     <string name="title_activity_maps">Map</string>
-    <string name="hintVille">Entrez un lieu en Suisse</string>
+    <string name="txtEditTextVille">Entrez un lieu en Suisse</string>
+    <string name="txtButtonChercher">Chercher</string>
+    <string name="txtTextViewHeader">Jour   T-   T+</string>
 </resources>
